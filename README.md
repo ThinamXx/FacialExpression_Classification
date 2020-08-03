@@ -12,11 +12,11 @@ urls=Array.from(document.querySelectorAll('.rg_i')).map(el=> el.hasAttribute('da
 window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));
 ```
 **Objectives and Target**
-- This Model can classify:
- - Happy Face
- - Sad Face
- - Surprise Face
- - Laughing Face
+* The Model can classify:
+  * Happy Face
+  * Sad Face
+  * Surprise Face
+  * Laughing Face
 
 **Preparing the Model**
 - I have used [Fastai](https://www.fast.ai/about/) API to train the Model. It seems quite challenging to understand the code if you have never encountered with Fast.ai API before.
@@ -27,7 +27,7 @@ One important note for anyone who has never used Fastai API before is to go thro
 ![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596440928/AA_wpjtcm.png)
 
 **Training of the Data**
-- Fastai Library requires very small bit of code to produce the high accuracy result.
+- Fastai Library requires very little bit of code to produce the high accuracy result.
 - Snapshot of the Code:
 
 ![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596441260/Mo_xozcnw.png)
