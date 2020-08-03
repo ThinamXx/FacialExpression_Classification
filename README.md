@@ -1,6 +1,7 @@
 # **Facial Expression Classification**
 
-##### [Fast.ai](http://course18.fast.ai/ml.html) Library implementation to classify **Facial Expression from an Image**. [Fast.ai](http://course18.fast.ai/ml.html) Library works on top of [PyTorch](https://pytorch.org/) with very powerful and effective implementation in the emerging field of **Deep Learning** and **Machine Learning**.
+**Fastai Library/API**
+[Fastai](https://www.fast.ai/about/) is a deep learning library which provides practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains, and provides researchers with low-level components that can be mixed and matched to build new approaches.
 
 ## I have used my own **Dataset** to train the **Model**.
 ## Important URL for Data Preparation: 
