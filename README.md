@@ -1,10 +1,11 @@
-# **Facial Expression Classification**
+## **Facial Expression Classification**
 
 **Fastai Library or API**
 - [Fastai](https://www.fast.ai/about/) is a deep learning library which provides practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains, and provides researchers with low-level components that can be mixed and matched to build new approaches.
 
-## I have used my own **Dataset** to train the **Model**.
-## Important URL for Data Preparation: 
+**Data Preparation**
+- I have prepared the Data for this project from Google Images. Inorder to achieve the high accuracy, preparing Dataset using own Images is prefered because Google Images are not always accurate. Inspite of those challenges this Model can classify the **Facial Expression**.
+- For the Data, you should have to go [Google Images](https://images.google.com/)
 ```javascript
 urls=Array.from(document.querySelectorAll('.rg_i')).map(el=> el.hasAttribute('data-src')?el.getAttribute('data-src'):el.getAttribute('data-iurl'));
 window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));
