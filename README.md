@@ -30,7 +30,6 @@ One important note for anyone who has never used Fastai API before is to go thro
 **Training of the Data**
 - Fastai Library requires very little bit of code to produce the high accuracy result.
 - Snapshot of the Code:
-
 ![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596441260/Mo_xozcnw.png)
 
 **Interpretation**
