@@ -25,22 +25,27 @@ One important note for anyone who has never used Fastai API before is to go thro
 
 **Snapshot of the Input Images**
 
-![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596440928/AA_wpjtcm.png)
+![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1599536884/Face_caez92.png)
 
 **Training of the Data**
 - Fastai Library requires very little bit of code to produce the high accuracy result.
 - Snapshot of the Code:
 
-![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596718189/Accura_lxklzq.png)
+```javascript
+learn = cnn_learner(data, models.resnet34, metrics=error_rate)
+learn.fit_one_cycle(4)
+```
+
+![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1599537326/Error_d0rgah.png)
 
 **Interpretation**
 - Fastai also provides fast Interpretation. Here, I have used Fastai API to draw the Confusion matrix.
 
-![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596441603/COnf_yqt7zg.png)
+![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1599537400/CM_d2gvow.png)
 
 **Putting the Model in Production**
 - I have tested the Model to classify the Laughing Face of a person.
 - Snapshot of the Result:
 
-![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596441792/Resu_kxnxde.png)
+![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1599537491/Laugh_vso6wc.png)
 
